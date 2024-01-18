@@ -1,91 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<style>
+    <meta charset="UTF-8">
+    <title>Joining Form</title>
+    <style>
 
+        * {
+        margin:0;
+        box-sizing: border-box;
+        }
 
-* {
+        body {      
+            background-color:  #b3d7e5  ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height:100vh;
+        }
 
-margin:0;
-
-box-sizing: border-box;
-
-}
-
-body {      
-
-    background-color: #1BBC9B;
-
-display: flex;
-
-justify-content: center;
-
-align-items: center;
-
-min-height:100vh;
-
-}
-
-
-
-
-
-      #container {
-        width:500px;
-        margin:10px auto;
-        
-      }
-     #pwd2{
-      width: 210px ;
-          
-
-     }
-   
-
-          div {
-            
-          
+        div {
+            margin: auto;
+            width: 300px;
             background-color: #EEEFF1;
-            }
+            border-radius: 5px;
+            text-align: center;
+            padding: 20px;
+        }
 
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .in {
+            margin-bottom: 10px;
+        }
+
+        #btn {
+            background-color:   rgb(127, 184, 207);
+            margin-bottom: 30px;
+            color: white;
+        }
+
+  
+
+        a {
+            text-decoration: none;
+            color: #9B9B9B;
+            font-size: 12px;
+        }
+        .email_chk {
+            display: flex;
+            width: 200px;
+            padding: 10px;
+        }
+        #remember-check{
+            width: 40px;
+        }
     </style>
-  </head>
-  <body> 
-    <div id="container">
-      <h1>회원 가입</h1>
-      <form action="joinging_completed.html">
-        
-            <li>
-              <label for="uname">이름</label>
-              <div><input type="text" id="uname" required placeholder="이름을 입력해주세요."> </div>
-            </li>
-            <li>
-              <label for="umail">이메일</label>
-              <div><input type="email" id="umail" required placeholder="ID@example.com"> </div>
-            </li>
-            <li>
-              <label for="pwd1">비밀번호</label>
-             <div> <input type="password" id="pwd1" required placeholder="영문,숫자 조합 8~15자 "> </div>
-            </li>        
-            <li>
-              <label for="pw2">비밀번호 확인</label>
-              <div><input type="password" id="pwd2" required placeholder="비밀번호를 한번 더 입력해주세요."> </div>
-            </li>
-          </ul>      
-        </fieldset>
-          <input type="submit" value="회원가입">
-          <a href="/index.html"><input type="button" value="취소"></a>
+</head>
+
+<body>
+    <div>
+        <form action="/main/joinging_completed.html">
+            <input type="text" placeholder="이름" class="in" required >
+            <input type="email" placeholder="이메일@example.com" class="in" required >
+            <input type="password" id="pwd1" placeholder="비밀번호" class="in" required >
+            <input type="password" id="pwd2"      placeholder="비밀번호 확인" class="in" required>
+      
 
 
 
 
 
-          
-        </div>
-      </form>
-    </div>           
-  </body>
+
+
+            
+                
+            <a href="/main/joinging_completed.html"><input type="submit" id="btn" value="가입하기"></a>
+            
+        </form>
+     
+    
+</body>
+
 </html>
