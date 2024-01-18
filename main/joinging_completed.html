@@ -6,12 +6,26 @@
   <title>Document</title>
 <style>
 
-.joinging_completed_reset{
-text-align: center;
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 * {
 
@@ -26,10 +40,10 @@ body {
 
     background: url('/img/joinging_congratulation.jpg') no-repeat center;
     background-size: cover;
-padding: 700px 400px;
+    width: 550px;
+    height: 100px;
+    margin: auto; 
 
-  
- 
 
   display: flex;
 
@@ -40,6 +54,59 @@ padding: 700px 400px;
   min-height:100vh;
 
 }
+
+
+
+@media screen and (max-width:768px)                       {
+  body{
+background: url(/img/joinging_congratulation2.jpg) no-repeat fixed;
+background-size: cover;
+
+
+  }
+}
+  @media screen and (max-width:426px)                       {
+    body{
+  background: url(/img/joinging_congratulation3.jpg) no-repeat fixed;
+  background-size: cover;
+  
+  
+    }
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.joinging_completed_reset{     
+            background-color: #b3d7e5 ;
+            text-align: center;
+            min-width: 100px;
+        }
+
+
+
+
+
+
 
 
 
@@ -55,11 +122,12 @@ padding: 700px 400px;
 </style>
 </head>
 <body>
+
+
   <div class="joinging_completed_reset">
     <h1>회원 가입을 진심으로 축하 드립니다</h1>
   <a href="/index.html"><input type="button">홈으로</a>
-    
-  </div>
+    </div>
 
   
 </body>
