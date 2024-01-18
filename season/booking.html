@@ -7,6 +7,13 @@
   <link rel="stylesheet" href="css/booking.css">
 </head>
 <body>
+  <div class="booking_top_img">
+    <div id="bt_img1"><img src="https://picsum.photos/960/500" alt=""></div>
+    <div id="bt_img2"><img src="https://picsum.photos/480/250" alt=""></div>
+    <div id="bt_img3"><img src="https://picsum.photos/480/250" alt=""></div>
+    <div id="bt_img4"><img src="https://picsum.photos/480/250" alt=""></div>
+    <div id="bt_img5"><img src="https://picsum.photos/480/250" alt=""></div>
+  </div>
   <div class="booking">
     <div class="booking_content">
       <div class="booking_hot">
@@ -77,11 +84,37 @@
         <div>
           <h6>빅아일랜드 1일 투어_오아후 출발</h6>
         </div>
-        <div>
-          <select name="booking_sidebar_op" id="">
+        <div class="booking_sidebar_block">
+          <select class="booking_sidebar_long" name="" id="">
             <option value="op01">빅 아일랜드 1일투어 (현지 코나 공항 조인)</option>
             <option value="op02">빅 아일랜드 1일 투어 (호텔픽업+당일 왕복항공권)</option>
           </select>
+        </div>
+        <div class="booking_sidebar_block">
+          <select class="booking_sidebar_short" name="" id="">
+            <option value="op01">버스</option>
+            <option value="op02">텍시</option>
+          </select>
+          <select class="booking_sidebar_short" name="" id="">
+            <option value="op01">9:00</option>
+            <option value="op01">9:30</option>
+            <option value="op02">10:00</option>
+            <option value="op02">10:30</option>
+            <option value="op03">11:00</option>
+            <option value="op03">11:30</option>
+          </select>
+        </div>
+        <div class="booking_sidebar_block">
+          <div><input type="date" id="b_s_date"></div>
+        </div>
+        <div class="booking_sidebar_block">
+          <div><p>총계: XX$</p></div>
+          <div><p>모든 결제는 USD 미화 달러로 결제가 진행됩니다. 상기 원화 금액의 경우, 실제 결제가 이루어지는 금액이 아닌 미화 달러의 금액적인 이해를 돕기위해 표시되는 내용인 점 참고 부탁드립니다.</p></div>
+          <div>
+            <a href="#" ><div class="a_btn" id="a_reservation">예약하기</div></a>
+            <a href="#" ><div class="a_btn" id="a_favor">찜하기</div></a>
+            <a href="#" ><div class="a_btn" id="a_kakao">카톡으로 문의하기</div></a>
+          </div>
         </div>
       </form>
     </div>
