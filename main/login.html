@@ -1,37 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <title>Login Form</title>
     <style>
-        
 
+        * {
+        margin:0;
+        box-sizing: border-box;
+        }
 
-
-
-      * {
-
-margin:0;
-
-box-sizing: border-box;
-
-}
-
-body {      
-
-    background-color: #1BBC9B;
-
-display: flex;
-
-justify-content: center;
-
-align-items: center;
-
-min-height:100vh;
-
-}
-
+        body {      
+            background-color: #1BBC9B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height:100vh;
+        }
 
         div {
             margin: auto;
@@ -65,49 +50,31 @@ min-height:100vh;
             color: #9B9B9B;
             font-size: 12px;
         }
-
-       
-    
+        .email_chk {
+            display: flex;
+            width: 200px;
+            padding: 10px;
+        }
+        #remember-check{
+            width: 40px;
+        }
     </style>
 </head>
 
-
-
-
-
-
-
-
-
 <body>
-            
-        
-
-
-
-    
     <div>
         <form action="/index.html">
             <input type="text" placeholder="이메일" class="in" required >
             <input type="password" placeholder="비밀번호" class="in" required>
-
-            
-                    <label for="remember-check">
-                <input type="checkbox" id="remember-check">이메일 기억하기
-                    </label>
-               
-
-
+            <div class="email_chk">
+                <input type="checkbox" id="remember-check">
+                <label for="remember-check">이메일 기억하기</label>
+            </div>
+                
             <input type="submit" id="btn" value="로그인">
-    
-            
         </form>
-       
-
         <a href="#none">비밀번호를 잊어버리셨나요?</a>
         <p><a href="/main/joinning.html">계정이 없으신가요?</a></p>
-        
-        
     </div>
     
 </body>
