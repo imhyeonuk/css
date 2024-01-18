@@ -19,6 +19,7 @@ nav {
   color: rgb(77, 125, 159);
 }
 
+
 .brandlogo {
   display: inline-block;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -30,11 +31,17 @@ nav {
   padding-left: 30%;
 }
 
-.video {
-  display: block;
-  width: 50rem;
-  height: 20rem;
-  margin: 1%;
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 400px;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
@@ -49,7 +56,7 @@ nav {
 .spring_autumn img {
   width: 12rem;
   height: 11rem;
-  border-radius: 20%;
+  border-radius: 10px 100px / 120px;
   margin-right: 2.5rem; 
   margin-left: 30px;
 }
@@ -64,7 +71,7 @@ nav {
 .summer_winter img {
   width: 12rem;
   height: 11rem;
-  border-radius: 20%; 
+  border-radius: 10px 100px / 120px;
   margin-left: 30px;
 }
 
