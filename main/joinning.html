@@ -5,28 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 <style>
+
+
+* {
+
+margin:0;
+
+box-sizing: border-box;
+
+}
+
+body {      
+
+    background-color: #1BBC9B;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+min-height:100vh;
+
+}
+
+
+
+
+
       #container {
         width:500px;
         margin:10px auto;
+        
       }
      #pwd2{
-      width: 200px ;
+      width: 210px ;
           
 
      }
-     
+   
 
+          div {
+            
+          
+            background-color: #EEEFF1;
+            }
 
-      
     </style>
   </head>
   <body> 
     <div id="container">
       <h1>회원 가입</h1>
       <form action="joinging_completed.html">
-        <fieldset>
-          <legend>사용자 정보</legend>    
-          <ul>
+        
             <li>
               <label for="uname">이름</label>
               <div><input type="text" id="uname" required placeholder="이름을 입력해주세요."> </div>
