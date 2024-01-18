@@ -66,11 +66,21 @@ min-height:100vh;
             color: #9B9B9B;
             font-size: 12px;
         }
+
+       
+    
     </style>
 </head>
 
-<body>
 
+
+
+
+
+
+
+
+<body>
             
         
 
@@ -79,12 +89,27 @@ min-height:100vh;
     
     <div>
         <form action="/index.html">
-            <input type="text" placeholder="아이디" class="in">
-            <input type="password" placeholder="비밀번호" class="in">
-            <input type="submit" id="btn" value="로그인"><br>
+            <input type="text" placeholder="이메일" class="in" required >
+            <input type="password" placeholder="비밀번호" class="in" required>
+
+            
+                <label for="remember-check">
+            <input type="checkbox" id="remember-check">이메일 기억하기
+                </label>
+           
+
+
+            <input type="submit" id="btn" value="로그인">
+    
+            
         </form>
+       
+
         <a href="#none">비밀번호를 잊어버리셨나요?</a>
+        <p><a href="/main/joinning.html">계정이 없으신가요?</a></p>
+        
     </div>
+    
 </body>
 
 </html>
