@@ -6,17 +6,19 @@
 }
 
 .title {
-  font-size: 22px;
+  color: chartreuse;
+  font-size: 16px;
   padding-bottom: 2%;
 }
 
 .nav {
+  color: #fff;
   font-size: 14px;
   display: inline-block;
   list-style: none;
   padding-top: 6%;
   padding-bottom: 5%;
-  padding-left: 1%;
+  padding-left: 2%;
 }
 
 .nav ul {
@@ -119,3 +121,46 @@
   padding-bottom: 1%;
   padding-right: 2%;
 }
+
+
+/* 미디어 쿼리 추가 */
+@media (min-width: 426px) and (max-width: 1981px) { 
+  .title1 {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: ; */
+  }
+
+  .content-text1 {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: ; */
+  }
+
+  .nav {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: ; */
+  }
+
+  .header {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: ; */
+  }
+}
+
+@media all and (max-width: 426px) {
+  .nav_container {
+    margin: auto;
+    width: 100%;    
+  }
+}
+
+
+
+  
