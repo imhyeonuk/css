@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>b</title>
   <link rel="stylesheet" href="css/booking.css">
+  <script src="https://kit.fontawesome.com/383b0a4783.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- 상단 img 영역 -->
   <div class="b_top_img">
     <div id="bt_img1"><img src="https://picsum.photos/960/500" alt=""></div>
     <div id="bt_img2"><img src="https://picsum.photos/480/250" alt=""></div>
@@ -14,13 +16,19 @@
     <div id="bt_img4"><img src="https://picsum.photos/480/250" alt=""></div>
     <div id="bt_img5"><img src="https://picsum.photos/480/250" alt=""></div>
   </div>
+
+  <!-- 본문 -->
   <div class="b">
     <div class="b_content">
       <div class="b_hot">
   
       </div>
       <div class="b_star">
-        
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
       </div>
       <div class="b_block">
         <h1>빅 아일랜드 1일 투어_오하우섬 출발</h1>
@@ -83,10 +91,11 @@
     <div class="b_s">
       <form action="#">
         <div  class="b_s_block">
-          <h3>예약하기</h3>
+          <h2>예약하기</h2>
+          <p class="b_alert_red">현재 비 로그인 상태 입니다. 비회원으로 계속 진행을 원하시는 경우에는 '예약하기' 버튼을 눌러주세요. 이미 가입하신 경우 <a href="">로그인</a>을 해주세요!</p>
         </div>
         <div class="b_s_block">
-          <h6>빅아일랜드 1일 투어_오아후 출발</h6>
+          <h4>빅아일랜드 1일 투어_오아후 출발</h4>
         </div>
         <div class="b_s_block">
           <select class="b_s_long" name="" id="">
@@ -94,7 +103,7 @@
             <option value="op02">빅 아일랜드 1일 투어 (호텔픽업+당일 왕복항공권)</option>
           </select>
         </div>
-        <div class="b_s_block">
+        <div class="b_s_block d_f space_btween ">
           <select class="b_s_short" name="" id="">
             <option value="op01">버스</option>
             <option value="op02">텍시</option>
@@ -109,15 +118,15 @@
           </select>
         </div>
         <div class="b_s_block">
-          <div><input type="date" id="b_s_date"></div>
+          <input type="date" id="b_s_date">
         </div>
         <div class="b_s_block">
-          <div><p>총계: XX$</p></div>
-          <div><p>모든 결제는 USD 미화 달러로 결제가 진행됩니다. 상기 원화 금액의 경우, 실제 결제가 이루어지는 금액이 아닌 미화 달러의 금액적인 이해를 돕기위해 표시되는 내용인 점 참고 부탁드립니다.</p></div>
+          <div class="b_money"><p>총계: &nbsp;&nbsp;$</p></div>
+          <div class=""><p class="b_alert"><i class="fa-solid fa-asterisk"></i>&nbsp;모든 결제는 USD 미화 달러로 결제가 진행됩니다. 상기 원화 금액의 경우, 실제 결제가 이루어지는 금액이 아닌 미화 달러의 금액적인 이해를 돕기위해 표시되는 내용인 점 참고 부탁드립니다.</p></div>
           <div>
-            <a href="#" ><div class="a_btn" id="a_reservation">예약하기</div></a>
-            <a href="#" ><div class="a_btn" id="a_favor">찜하기</div></a>
-            <a href="#" ><div class="a_btn" id="a_kakao">카톡으로 문의하기</div></a>
+            <a href="#" ><div class="a_btn" id="a_reservation"><i class="fa-solid fa-cart-shopping"></i>&nbsp;예약하기</div></a>
+            <a href="#" ><div class="a_btn" id="a_favor"><i class="fa-solid fa-heart"></i>&nbsp;찜하기</div></a>
+            <a href="#" ><div class="a_btn" id="a_kakao"><i class="fa-solid fa-comment"></i>&nbsp;카톡으로 문의하기</div></a>
           </div>
         </div>
       </form>
