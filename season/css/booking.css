@@ -15,7 +15,7 @@ h1:after {
   content: "";
   display: block;
   width: 40px;
-  border-bottom: 3px solid aquamarine;
+  border-bottom: 3px solid rgb(127, 184, 207);
   margin: 20px 0px;
 }
 
@@ -127,7 +127,7 @@ h1:after {
     box-shadow: 1px 1px 10px 1px rgba(200, 200, 200, 0.5);
     top: 100px;
     width: 350px;
-    height: 700px;
+    height: 620px;
     grid-column: 4/5;
   }
 }
@@ -138,7 +138,7 @@ h1:after {
     box-shadow: 1px 1px 10px 1px rgba(200, 200, 200, 0.5);
     top: 100px;
     width: 350px;
-    height: 700px;
+    height: 620px;
   }
 }
 .b_block {
@@ -207,7 +207,7 @@ h1:after {
   color: white;
   justify-content: center;
   align-items: center;
-  background-color: rgb(127, 216, 182);
+  background-color: rgb(127, 184, 207);
 }
 
 #a_favor {
