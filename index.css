@@ -7,15 +7,15 @@ nav {
 }
 
 .navbar {
-  position: fixed;
+  position: fixed; /* 처음에 flex 사용하지 않아서 제대로 작용X */
   top: 0;
   left: 0;
   width: 100%;
   background-color: #ffffff;
 }
-.logobox{
-  display: flex;
-  justify-content: space-between;
+.logobox{ 
+  display: flex;/*컨테이너 내부의 요소들을 가로로 정렬하기 위해 flexbox를 사용*/
+  justify-content: space-between; /* Flex 아이템들을 가로 축에서 양 끝으로 분산 */
   align-items: center;
   width: 109px;
 }
