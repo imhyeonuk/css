@@ -35,11 +35,19 @@ nav {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
 }
-
-.search, .member {
-  display: inline-block;
-  /* padding-left: 30%; */
+@media (min-width: 426px) and (max-width: 1981px) {
+  .search :first-child {
+    width: 250px;
+  }
 }
+@media all and (max-width: 426px) {
+  .search :first-child {
+    width: 50px;
+  }
+}
+/* .search, .member {
+  display: inline-block;
+} */
 
 .slideshow-container {
   display: flex; /*컨테이너 내부의 요소들을 가로로 정렬하기 위해 flexbox를 사용*/
