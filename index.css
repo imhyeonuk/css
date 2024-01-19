@@ -35,14 +35,14 @@ nav {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
 }
-@media (min-width: 426px) and (max-width: 1981px) {
+@media (min-width: 500px) and (max-width: 1981px) {
   .search :first-child {
     width: 250px;
   }
 }
-@media all and (max-width: 426px) {
+@media all and (max-width: 500px) {
   .search :first-child {
-    width: 50px;
+    width: 8.75rem;
   }
 }
 /* .search, .member {
